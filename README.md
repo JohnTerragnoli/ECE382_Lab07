@@ -106,3 +106,5 @@ Overall, this was the same pinout as in lab06, except with the 3 wire inputs int
 ##5 Block/Interrupt
 
 I plan on using block, as in my code above for attaining distances.  Variables within the while loop will be set each time we walk through the while loop and the distances change, and these variables will be changed to turn the light on or off when needed.  Interrupts will not be used, as the distances will be checked periodically.  That way I do not have to deal with the priority of interrupts and such.  Simplicity is the ultimate sophistication (Da Vinci).  
+
+If nothing is done with the variables when they are compared, they will reset to the max distance before the next time.  
