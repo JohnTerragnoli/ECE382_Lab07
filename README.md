@@ -3,7 +3,7 @@ Robot and Sensors (ECE382_Lab07)
 
 
 
-#Prelab Requiremenets: 
+#Prelab Requirements: 
 
 1. Paste the grading section in your lab notebook as the first page of this lab.
 
@@ -27,6 +27,6 @@ Hooked it up to ground and power.
 DMM to ground and each of the three different sensors.  Placed objects certain distances away from the sensor to watch the voltage rise when it got closer to a wall. This worked for all three sensors.  
 
 ##3 ADC10 subsystem
-This will be setup by wiring the sensors as three different inputs to the MSP430.  
+This will be setup by wiring the sensors as three different inputs to the MSP430 via the ADC10 (analog to digital converter).  This is a type of chip inside the actual MSP430.  
 Registers to use: 
 
