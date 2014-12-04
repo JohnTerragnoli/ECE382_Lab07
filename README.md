@@ -35,6 +35,7 @@ Robot and Sensors (ECE382_Lab07)
 ##2 Test Sensors
 Hooked it up to ground and power. 
 DMM to ground and each of the three different sensors.  Placed objects certain distances away from the sensor to watch the voltage rise when it got closer to a wall. This worked for all three sensors.  
+As for reference values, I am not exactly sure.  I will like to find a value at which a wall is 8 inches away, record that voltage, and make that the critical voltage at which the car will response.  This is an idea length for turning.  Unfortunately I have not been able to do this because my robot has been moved...I did the basic test if the sensor's worked because Sabin Park temporarily gave me permission to use his robot.  I am sorry, I left it in locker 11 before I left for Japan, and when I came back I could not find it in any of the lockers.  
 
 ##3 ADC10 subsystem
 This will be setup by wiring the sensors as three different inputs to the MSP430 via the ADC10 (analog to digital converter).  This is a type of chip inside the actual MSP430.  To start off, [Dr. Coulston's code](http://ecse.bd.psu.edu/cmpen352/lecture/code/lec36.c) will be used.  This code is only built for one sensor.  It will be altered appropriately to account for all three sensors on my robot.  
@@ -94,7 +95,7 @@ loop back to "repeat"
 
 **Specific Pins**
 As for the specific pins, I will use the empty ones available on port 1, namely 4,5,and 6.  
-If for some reason this proves problematic, then I will change them later.  
+If for some reason this proves problematic, then I will change them later.  Anything more specific can be referenced in the [MSP430 Family User Guide](http://www.ece382.com/datasheets/msp430_msp430x2xx_family_users_guide.pdf)  I do no anticipate this being too difficult.  
 
 
 
@@ -104,4 +105,4 @@ Overall, this was the same pinout as in lab06, except with the 3 wire inputs int
 
 ##5 Block/Interrupt
 
-I plan on using block, as in my code above for attaining distances.  Variables within the while loop will be set each time we walk through the while loop and the distances change, and these variables will be changed to turn the light on or off when needed.  
+I plan on using block, as in my code above for attaining distances.  Variables within the while loop will be set each time we walk through the while loop and the distances change, and these variables will be changed to turn the light on or off when needed.  Interrupts will not be used, as the distances will be checked periodically.  That way I do not have to deal with the priority of interrupts and such.  Simplicity is the ultimate sophistication (Da Vinci).  
