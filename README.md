@@ -29,7 +29,7 @@ Robot and Sensors (ECE382_Lab07)
 
 
 
-##1 Grading Sheet, shown below: 
+##1 Grading Sheet, shown at top: 
 
 
 ##2 Test Sensors
