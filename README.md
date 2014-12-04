@@ -1,17 +1,6 @@
 Robot and Sensors (ECE382_Lab07)
 =================================
 
-| Item                   | Grade                                                                                                                   | Points | Out of | Date | Due     |
-|------------------------|-------------------------------------------------------------------------------------------------------------------------|--------|--------|------|---------|
-| Prelab                 | On-Time: 0 ---- Check Minus ---- Check ---- Check Plus                                                                  |        | 10     |      | BOC L37 |
-| Required Functionality | On-Time ------------------------------------------------------------------ Late: 1Day ---- 2Days ---- 3Days ---- 4+Days |        | 40     |      | COB L38 |
-| B Functionality        | On-Time ------------------------------------------------------------------ Late: 1Day ---- 2Days ---- 3Days ---- 4+Days |        | 10     |      | COB L38 |
-| A Functionality        | On-Time ------------------------------------------------------------------ Late: 1Day ---- 2Days ---- 3Days ---- 4+Days |        | 10     |      | COB L38 |
-| Use of Git / Github    | On-Time: 0 ---- Check Minus ---- Check ---- Check Plus ---- Late: 1Day ---- 2Days ---- 3Days ---- 4+Days                |        | 10     |      | COB L40 |
-| Code Style             | On-Time: 0 ---- Check Minus ---- Check ---- Check Plus ---- Late: 1Day ---- 2Days ---- 3Days ---- 4+Days                |        | 10     |      | COB L40 |
-| README                 | On-Time: 0 ---- Check Minus ---- Check ---- Check Plus ---- Late: 1Day ---- 2Days ---- 3Days ---- 4+Days                |        | 10     |      | COB L40 |
-| Total                  |                                                                                                                         |        | 100    |      |         |
-
 
 #Prelab Requirements: 
 
@@ -43,6 +32,7 @@ This will be setup by wiring the sensors as three different inputs to the MSP430
 
 **Major registers** to use to interact with the MSP430 and the sensor: 
 
+```
 P1DIR //makes LED and output.
 P1OUT//turns the LED on or off as desired.
 ADC10CTL0// Turn off ADC subsystem
@@ -51,6 +41,7 @@ ADC10AE0// Make P1.4 analog input for the sensor
 ADC10SC//starts conversion from analog to digital
 ADC10BUSY// determines if the chip is busy converting a signal
 ADC10MEM//stores the 10 bit value coming in.
+```
 
 Their functions are described in the comments of the code included above.  
 
@@ -108,3 +99,10 @@ Overall, this was the same pinout as in lab06, except with the 3 wire inputs int
 I plan on using block, as in my code above for attaining distances.  Variables within the while loop will be set each time we walk through the while loop and the distances change, and these variables will be changed to turn the light on or off when needed.  Interrupts will not be used, as the distances will be checked periodically.  That way I do not have to deal with the priority of interrupts and such.  Simplicity is the ultimate sophistication (Da Vinci).  
 
 If nothing is done with the variables when they are compared, they will reset to the max distance before the next time.  
+
+
+
+#To do:
+
+1. Add a picture of the pinout to get back the point on the pinout.  
+2. 
