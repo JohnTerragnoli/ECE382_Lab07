@@ -16,11 +16,17 @@ Robot and Sensors (ECE382_Lab07)
 5. Consider the interface you'll create to your sensors. Will you block or use interrupts? Will you convert one sensor at a time or multiple?
 
 6. Include whatever information from this lab you think will be useful in creating your program.
-7. 
+
 
 
 ##1 Grading Sheet, shown below: 
 
 
 ##2 Test Sensors
+Hooked it up to ground and power. 
+DMM to ground and each of the three different sensors.  Placed objects certain distances away from the sensor to watch the voltage rise when it got closer to a wall. This worked for all three sensors.  
+
+##3 ADC10 subsystem
+This will be setup by wiring the sensors as three different inputs to the MSP430.  
+Registers to use: 
 
