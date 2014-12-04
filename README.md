@@ -27,6 +27,10 @@ Hooked it up to ground and power.
 DMM to ground and each of the three different sensors.  Placed objects certain distances away from the sensor to watch the voltage rise when it got closer to a wall. This worked for all three sensors.  
 
 ##3 ADC10 subsystem
-This will be setup by wiring the sensors as three different inputs to the MSP430 via the ADC10 (analog to digital converter).  This is a type of chip inside the actual MSP430.  
-Registers to use: 
+This will be setup by wiring the sensors as three different inputs to the MSP430 via the ADC10 (analog to digital converter).  This is a type of chip inside the actual MSP430.  To start off, [Dr. Coulston's code](http://ecse.bd.psu.edu/cmpen352/lecture/code/lec36.c) will be used.  This code is only built for one sensor.  It will be altered appropriately to account for all three sensors on my robot.  
+Major registers to use to interact with the MSP430 and the sensor: 
+ADC10CTL0// Turn off ADC subsystem
+ADC10CTL1// Channel 4, ADC10CLK/4
+ADC10AE0// Make P1.4 analog input for the sensor
+Their functions are described in the comments of the code included above.  
 
