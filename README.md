@@ -43,6 +43,41 @@ ADC10MEM//stores the 10 bit value coming in.
 
 Their functions are described in the comments of the code included above.  
 
+**Initialization Sequence**
+The initialization sequence for one bit is included in Dr. Coulston's code.  The basic idea can be seen below:
+
+```
+stop ADC so we can set up
+make port input
+set the appropriate inputs for the left, center, and right sensors
+
+
+//repeat
+start up ADC for left
+enable conversion for left
+start conversion for left
+wait while it finishes left
+attain distance from left 
+
+start up ADC for center
+enable conversion for center
+start conversion for center
+wait while it finishes center
+attain distance from center 
+
+start up ADC for right
+enable conversion for right
+start conversion for right
+wait while it finishes right
+attain distance from right 
+
+loop back to "repeat"
+
+```
+
+
+##4 Hardward Interface
+
 **Specific Pins**
 As for the specific pins, I will use the empty ones available on port 1, namely 4,5,and 6.  
 If for some reason this proves problematic, then I will change them later.  
