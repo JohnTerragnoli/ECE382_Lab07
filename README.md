@@ -1,6 +1,16 @@
 Robot and Sensors (ECE382_Lab07)
 =================================
 
+| Item                   | Grade                                                                                                                   | Points | Out of | Date | Due     |
+|------------------------|-------------------------------------------------------------------------------------------------------------------------|--------|--------|------|---------|
+| Prelab                 | On-Time: 0 ---- Check Minus ---- Check ---- Check Plus                                                                  |        | 10     |      | BOC L37 |
+| Required Functionality | On-Time ------------------------------------------------------------------ Late: 1Day ---- 2Days ---- 3Days ---- 4+Days |        | 40     |      | COB L38 |
+| B Functionality        | On-Time ------------------------------------------------------------------ Late: 1Day ---- 2Days ---- 3Days ---- 4+Days |        | 10     |      | COB L38 |
+| A Functionality        | On-Time ------------------------------------------------------------------ Late: 1Day ---- 2Days ---- 3Days ---- 4+Days |        | 10     |      | COB L38 |
+| Use of Git / Github    | On-Time: 0 ---- Check Minus ---- Check ---- Check Plus ---- Late: 1Day ---- 2Days ---- 3Days ---- 4+Days                |        | 10     |      | COB L40 |
+| Code Style             | On-Time: 0 ---- Check Minus ---- Check ---- Check Plus ---- Late: 1Day ---- 2Days ---- 3Days ---- 4+Days                |        | 10     |      | COB L40 |
+| README                 | On-Time: 0 ---- Check Minus ---- Check ---- Check Plus ---- Late: 1Day ---- 2Days ---- 3Days ---- 4+Days                |        | 10     |      | COB L40 |
+| Total                  |                                                                                                                         |        | 100    |      |         |
 
 
 #Prelab Requirements: 
@@ -44,7 +54,7 @@ ADC10MEM//stores the 10 bit value coming in.
 Their functions are described in the comments of the code included above.  
 
 **Initialization Sequence**
-The initialization sequence for one bit is included in Dr. Coulston's code.  The basic idea can be seen below:
+The initialization sequence for one bit is included in Dr. Coulston's code.  The basic idea can be seen below in my general code skeleton for attaining distances:
 
 ```
 stop ADC so we can set up
@@ -71,6 +81,10 @@ start conversion for right
 wait while it finishes right
 attain distance from right 
 
+compare distances for left, center, and right
+use the comparisons to determine which LED turns on
+or which direction the car will turn. 
+
 loop back to "repeat"
 
 ```
@@ -87,3 +101,7 @@ If for some reason this proves problematic, then I will change them later.
 **Pinout**
 Overall, this was the same pinout as in lab06, except with the 3 wire inputs into the sensor.  The inputs will be for P1.4, P1.5, and P1.6 for left, center, and right, respectively.  There really is no need for an additional external hardware schematic.  If the design becomes more difficult later, I will add one in.  
 
+
+##5 Block/Interrupt
+
+I plan on using block, as in my code above for attaining distances.  Variables within the while loop will be set each time we walk through the while loop and the distances change, and these variables will be changed to turn the light on or off when needed.  
