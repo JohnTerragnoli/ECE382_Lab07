@@ -121,10 +121,11 @@ Pictures of the spreadsheet are reproduced below.
 
 ![alt tag](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab07/master/2.%20Photos/A%20Functionality/Voltage%20Output.PNG "Voltage/distance curve")
 
-Legend:
-  blue = left sensor
-  red = center sensor
-  green = right sensor
+**Legend:**
+Sorry, the legend command in Excel was being annoying and would not let me change the legend on the side.  
+blue = left sensor
+red = center sensor
+green = right sensor
 
 
 
