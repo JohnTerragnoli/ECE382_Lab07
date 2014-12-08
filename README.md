@@ -101,17 +101,24 @@ I plan on using block, as in my code above for attaining distances.  Variables w
 If nothing is done with the variables when they are compared, they will reset to the max distance before the next time.  
 
 #Basic Functionality
+
 Basic Functionality was achieved on 7 Dec 2014, a day which will not live in infamy.  
 
 The video is posted on youTube [here](https://www.youtube.com/watch?v=Bm2mYJ4hcjk&feature=youtu.be)
 
 #B Functionality
-The code for B Functionality can be seen [here](https://github.com/JohnTerragnoli/ECE382_Lab07/tree/master/1.%20Code/B%20Functionality).  It includes the [main](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab07/master/1.%20Code/B%20Functionality/main.c) file, the [header](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab07/master/1.%20Code/B%20Functionality/header.h) file, and the [implementation](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab07/master/1.%20Code/B%20Functionality/Implementation.c) file.  The implementation file contains the ATD code in it, and they are reduced to simple commands, which are called in three lines in the main.c file. 
+The library/folder for B Functionality can be seen [here](https://github.com/JohnTerragnoli/ECE382_Lab07/tree/master/1.%20Code/B%20Functionality).  
+
+It includes the [main](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab07/master/1.%20Code/B%20Functionality/main.c) file, the [header](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab07/master/1.%20Code/B%20Functionality/header.h) file, and the [implementation](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab07/master/1.%20Code/B%20Functionality/Implementation.c) file.  The implementation file contains the ATD code in it, and they are reduced to simple commands, which are called in three lines in the main.c file. 
 
 #A Functionality
 
-The values for this have been measured and recorded.  
+The values for this have been measured and recorded.  The file can be seen [here](https://github.com/JohnTerragnoli/ECE382_Lab07/blob/master/3.%20Files/A%20Functionality/Sensor%20Characterization.xlsx).
 
+
+
+#Documentation:
+C2C Sabin Park told me that I needed to adjust the blinders on my IR sensors so that it was picking up things behind the sensor, or the top of my robot platform.  
 
 
 #To do:
