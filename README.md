@@ -100,6 +100,17 @@ I plan on using block, as in my code above for attaining distances.  Variables w
 
 If nothing is done with the variables when they are compared, they will reset to the max distance before the next time.  
 
+#Basic Functionality
+Basic Functionality was achieved on 7 Dec 2014, a day which will not live in infamy.  
+
+The video is posted on youTube here:
+
+#B Functionality
+
+
+#A Functionality
+
+
 
 
 #To do:
