@@ -117,6 +117,7 @@ The values for this have been measured and recorded.  The file can be seen [here
 
 
 
+
 #Documentation:
 C2C Sabin Park told me that I needed to adjust the blinders on my IR sensors so that it was picking up things behind the sensor, or the top of my robot platform.  
 
