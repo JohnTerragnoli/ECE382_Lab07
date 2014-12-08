@@ -115,6 +115,16 @@ It includes the [main](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_L
 
 The values for this have been measured and recorded.  The file can be seen [here](https://github.com/JohnTerragnoli/ECE382_Lab07/blob/master/3.%20Files/A%20Functionality/Sensor%20Characterization.xlsx).
 
+Pictures of the spreadsheet are reproduced below.  
+
+![alt tag](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab07/master/2.%20Photos/A%20Functionality/Data%20and%20Conversion%20Chart.PNG "Sensor Data")
+
+![alt tag](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab07/master/2.%20Photos/A%20Functionality/Voltage%20Output.PNG "Voltage/distance curve")
+
+Legend:
+  blue = left sensor
+  red = center sensor
+  green = right sensor
 
 
 
