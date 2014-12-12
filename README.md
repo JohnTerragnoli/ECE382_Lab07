@@ -131,6 +131,11 @@ red = center sensor
 green = right sensor
 
 
+#Pinout
+Here's a pinout from lab 08, which includes lab 07.  Sorry if it is not the prettiest, but it gets the job done!
+
+![alt tag](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab08/master/2.%20Photos/Pinout.JPG "Lab08 pinout")
+
 
 #Documentation:
 C2C Sabin Park told me that I needed to adjust the blinders on my IR sensors so that it was picking up things behind the sensor, or the top of my robot platform.  
