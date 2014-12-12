@@ -130,6 +130,8 @@ blue = left sensor
 red = center sensor
 green = right sensor
 
+Also, I noted that shadows affect the Ir SENSORS, so I had to be careful with my own when taking measurements.  
+
 
 #Pinout
 Here's a pinout from lab 08, which includes lab 07.  Sorry if it is not the prettiest, but it gets the job done!
