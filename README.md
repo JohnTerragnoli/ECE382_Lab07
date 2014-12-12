@@ -102,6 +102,9 @@ If nothing is done with the variables when they are compared, they will reset to
 
 #Basic Functionality
 
+1. This was not difficult, entirely, as Dr. Coulston provided the [original code](http://ecse.bd.psu.edu/cmpen352/lecture/code/lec36.c) to make one of the LEDs react to a sensor.  The first time I created this funcitonality, I ran this code, hooked up the sensors to the 3.3v, ground, and the output to the P1.4 pin, and the light worked.  All I had to do after this was duplicate the code and change the ends of the variables so they matched pins P1.3, P1.4, and P1.5.  I did this and it worked.
+2. However, I noticed that the lights would sometime flicker and stay on, even when there was nothing around them.  When I was reaching under to check out the wiring underneath the car, I saw one of the LED's go off.  This made me think that IR rays might be making their way into the back of the sensors from the other sensors.  To test this theory, I put black electrical tape covering the sides and backs of all the sensors.  The flickering and lighting up for no reason stopped immediately.  This made me realy happy and allowed me to get Required Funtionality.  
+
 Basic Functionality was achieved on 7 Dec 2014, a day which will not live in infamy.  
 
 The video is posted on youTube [here](https://www.youtube.com/watch?v=Bm2mYJ4hcjk&feature=youtu.be)
